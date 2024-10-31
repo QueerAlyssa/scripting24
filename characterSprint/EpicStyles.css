@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body{
+    background-color: rgb(99, 9, 9);
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 70vw;
+    margin: auto;
+    font-family: "MedievalSharp", cursive;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: aliceblue;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+
+
+nav li{
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+}
+
+nav a:hover{
+    background-color: rgb(230, 44, 44);
+}
+
+h1{
+        font-family: "Creepster", system-ui;
+        font-size: 60px;
+}
+
+h2{
+        background-color: rgb(58, 5, 5);
+        padding: 10px;
+        font-family: "Creepster", system-ui;
+        font-size: 25px;
+        text-indent: 25px;
+}
+    
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70vw;
+    text-align: left;
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+}
+
+section p{
+    font-family: "MedievalSharp", cursive;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: left;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+img{
+    
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Skill p{
+    margin-top: 80px;
+}
+
+
+
+.Plan p{
+    
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+
+.People h2{
+    text-align: left;
+    text-indent: 25px;
+}
+
+
+.Music{
+    text-align: center;
+}
+
+.Music h2{
+    text-align: left;
+}
+
+
+footer{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 70vw;
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+}
+
+footer p{
+text-align: center;
+}
+
