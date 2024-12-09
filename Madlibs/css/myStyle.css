@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+header{
+    background-image: url(../images/TempDojo.jpg);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+    margin: auto; 
+}
+
+body{
+    background-color: black;
+    background-image: url(../images/Light.png);
+    background-position: 20%;
+    background-attachment: fixed
+}
+
+section{
+    background-color: black;
+    width: 80vw;
+    margin: auto;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h1, h2, h3{
+    font-family: "Creepster", system-ui;
+    color: #dc3545;
+}
+
+h3{
+    padding-bottom: 60px;
+}
+
+p{
+    
+    font-family: "MedievalSharp", cursive;
+    color: #dc3545;
+    font-size: large;
+    
+}
+
+footer{
+    background-image: url(../images/BlueFlames.jpg);
+    padding-bottom: 80px;
+    padding-top: 300px;
+    background-position: center;
+    background-size: cover;
+    width: 80vw;
+    margin: auto;    
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE Sasuke Website</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS style sheet -->
+
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1>Sasuke epic dojo</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container text-white py-5">
+            <div class="row my-5 p-3">
+                <div class="col-sm-5 text-danger mx-auto">
+                    <h3>
+                        Welcome to my sick and badass dojo, you will fill out the form
+                    </h3>
+                    
+                    <form action="javascript:write();">
+
+                        <div class="form-group">
+                            <label for="Weapon"><p>Weapon:</p></label>
+                            <input type="text" class="form-control" id="Weapon">
+                        </div>
+                        <div class="form-group">
+                            <label for="Arena Name"><p>Arena Name:</p></label>
+                            <input type="text" class="form-control" id="Arena Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Teammate"><p>Teammate Name:</p></label>
+                            <input type="text" class="form-control" id="Teammate">
+                        </div>
+                        <div class="form-group">
+                            <label for="Enemys Name"><p>Enemy's Name:</p></label>
+                            <input type="text" class="form-control" id="Enemys Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Element"><p>Element:</p></label>
+                            <input type="text" class="form-control" id="Element">
+                        </div>
+                        <div class="form-group">
+                            <label for="Physical Move"><p>Physical Move:</p></label>
+                            <input type="text" class="form-control" id="Physical Move">
+                        </div>
+                        <div class="form-group">
+                            <label for="Sick Move Name"><p>Sick Move Name:</p></label>
+                            <input type="text" class="form-control" id="Sick Move Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Dodge Move"><p>Dodge Move:</p></label>
+                            <input type="text" class="form-control" id="Dodge Move">
+                        </div>
+                        <div class="form-group">
+                            <label for="Jutsu Move"><p>Jutsu Move:</p></label>
+                            <input type="text" class="form-control" id="Jutsu Move">
+                        </div>
+                        <div class="form-group">
+                            <label for="Name"><p>Name:</p></label>
+                            <input type="text" class="form-control" id="Name">
+                        </div>
+
+                        <div class="form-group">
+                            Your stats:
+                            <div class="form-check">
+                                <label for="low" class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="stats" value="low"
+                                        id="low"><p>low stats</p>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="mid" class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="stats" value="mid"
+                                        id="mid"><p>Mid Stats</p>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="max" class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="stats" value="max"
+                                        id="max"><p>MAX STATS</p>
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-block btn-outline-danger"><p>Submit</p></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="output" class="col-sm-6 mx-auto p-5 rounded text-danger text-center">
+                    <h2>Your lame responses go here</h2>
+                </div>
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-block text-danger my-5 py-3" onclick="window.location.reload();"><p>Refresh Page</p></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Sasuke epic dojo</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
